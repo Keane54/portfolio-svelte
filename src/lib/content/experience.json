@@ -1,8 +1,8 @@
 [
     {
         "company": "",
-        "yearStart": "",
-        "yearEnd": "",
+        "start": "",
+        "end": "",
         "position": "",
         "description": "",
         "technologies": []
