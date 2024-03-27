@@ -5,6 +5,6 @@
     export let className = "";
 </script>
 
-<svelte:element this="{element}" class="flex {className}">
+<svelte:element this="{element}" class="{className}">
     <slot/>
 </svelte:element>

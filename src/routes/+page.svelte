@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import Element from "../components/atoms/Element.svelte";
+import Grid from "../components/atoms/Grid.svelte";
+</script>
+
+<Grid>
+    <Element element={'section'} className={'col-span-6'}>
+
+    </Element>
+
+    <Element element={'section'} className={'col-span-6'}>
+
+    </Element>
+</Grid>

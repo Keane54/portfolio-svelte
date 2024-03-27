@@ -1,8 +1,8 @@
 <script lang="ts">
-    import type { Heading } from "../../types/types";
+    import type { Heading } from "typescript/types";
 
     export let text = "";
-    export let element: Heading = "h1";
+    export let element: Heading;
     export let className = "";
 </script>
 
