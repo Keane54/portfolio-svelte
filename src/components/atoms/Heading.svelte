@@ -6,6 +6,6 @@
     export let className = "";
 </script>
 
-<svelte:element this="{element}" class="{className}">
+<svelte:element this="{element}" class="text-slate-200 {className}">
     <slot>{text}</slot>
 </svelte:element>

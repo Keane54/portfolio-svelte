@@ -1,14 +1,17 @@
 <script lang="ts">
     import Element from "../components/atoms/Element.svelte";
-import Grid from "../components/atoms/Grid.svelte";
+    import FlexCol from "../components/atoms/FlexCol.svelte";
+    import Grid from "../components/atoms/Grid.svelte";
+    import AboutMe from "../components/molecules/AboutMe.svelte";
+    import SideNav from "../components/organisms/SideNav.svelte";
 </script>
 
-<Grid>
-    <Element element={'section'} className={'col-span-6'}>
-
+<Grid className="py-24 gap-8 relative">
+    <Element element={'section'} className={'col-span-full md:col-span-6 lg:sticky lg:top-0'}>
+        <SideNav/>
     </Element>
 
-    <Element element={'section'} className={'col-span-6'}>
-
-    </Element>
+    <FlexCol element={'main'} className={'col-span-full md:col-span-6 gap-12'}>
+        <AboutMe/>
+    </FlexCol>
 </Grid>
