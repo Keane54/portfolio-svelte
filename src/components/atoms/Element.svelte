@@ -3,8 +3,9 @@
 
     export let element: ElementString = "div";
     export let className = "";
+    export let id = "";
 </script>
 
-<svelte:element this="{element}" class="{className}">
+<svelte:element id="{id}" this="{element}" class="{className}">
     <slot/>
 </svelte:element>

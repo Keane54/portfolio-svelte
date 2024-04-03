@@ -2,6 +2,7 @@
     import Element from "../atoms/Element.svelte";
     import FlexCol from "../atoms/FlexCol.svelte";
     import Profile from "../molecules/Profile.svelte";
+    import SocialLinks from "../molecules/SocialLinks.svelte";
     import ThinLinks from "../molecules/ThinLinks.svelte";
 
     const links = [
@@ -12,9 +13,13 @@
     ];
 </script>
 
-<FlexCol className="gap-16">
-    <Profile/>
-    <Element element="nav">
-        <ThinLinks {links}/>
-    </Element>
+<FlexCol className="gap-16 md:justify-between h-full">
+    <FlexCol className="gap-16">
+        <Profile/>
+        <Element element="nav" className="hidden md:block">
+            <ThinLinks {links}/>
+        </Element>
+    </FlexCol>
+
+    <SocialLinks/>
 </FlexCol>
