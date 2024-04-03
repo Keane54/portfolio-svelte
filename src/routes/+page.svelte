@@ -4,6 +4,13 @@
     import Grid from "../components/atoms/Grid.svelte";
     import AboutMe from "../components/molecules/AboutMe.svelte";
     import SideNav from "../components/organisms/SideNav.svelte";
+    import { default as experience } from "$lib/content/experience.json"
+    import { default as projects } from "$lib/content/projects.json"
+    import CardList from "../components/organisms/CardList.svelte";
+    import type { ExperienceList, ProjectList } from "typescript/types";
+
+    const experienceList = experience as ExperienceList
+    const projectList = projects as ProjectList
 </script>
 
 <Grid className="py-16 gap-y-24 md:py-0 md:gap-8">
@@ -13,5 +20,9 @@
 
     <FlexCol element={'main'} className={'col-span-full md:col-span-6 gap-12 md:py-24'}>
         <AboutMe/>
+
+        <CardList items={experienceList}/>
+
+        <CardList items={projectList}/>
     </FlexCol>
 </Grid>

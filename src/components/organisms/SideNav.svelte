@@ -13,7 +13,7 @@
     ];
 </script>
 
-<FlexCol className="gap-16 md:justify-between h-full">
+<FlexCol className="gap-12 md:gap-16 md:justify-between h-full">
     <FlexCol className="gap-16">
         <Profile/>
         <Element element="nav" className="hidden md:block">

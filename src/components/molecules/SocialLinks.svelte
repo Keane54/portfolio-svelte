@@ -7,15 +7,15 @@
 </script>
 
 <FlexRow className="gap-6">
-    <Link href="https://github.com/Keane54" newTab={true}>
+    <Link title="GitHub" href="https://github.com/Keane54" newTab={true}>
         <GitHub/>
     </Link>
 
-    <Link href="https://www.linkedin.com/in/oliver-keane54/" newTab={true}>
+    <Link title="LinkedIn" href="https://www.linkedin.com/in/oliver-keane54/" newTab={true}>
         <LinkedIn/>
     </Link>
 
-    <Link href="https://www.instagram.com/ollykeane41/" newTab={true}>
+    <Link title="Instagram" href="https://www.instagram.com/ollykeane41/" newTab={true}>
         <Instagram/>
     </Link>
 </FlexRow>

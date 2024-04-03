@@ -1,10 +1,29 @@
-[
-    {
-        "company": "",
-        "start": "",
-        "end": "",
-        "position": "",
-        "description": "",
-        "technologies": []
-    }
-]
+{
+    "type": "experience",
+    "data": [
+        {
+            "company": "Brew Digital",
+            "start": "Nov 2023",
+            "end": "Present",
+            "position": "Full Stack Developer",
+            "description": "",
+            "technologies": ["SvelteKit", "Next.js", "TypeScript", "JavaScript", "Statamic", "TailwindCSS", "Laravel"]
+        },
+        {
+            "company": "Brew Digital",
+            "start": "Jan 2023",
+            "end": "Nov 2023",
+            "position": "Associate Web Developer",
+            "description": "",
+            "technologies": ["Next.js", "JavaScript", "React", "Prismic", "PHP", "TailwindCSS"]
+        },
+        {
+            "company": "BookaBuilder UK",
+            "start": "2023",
+            "end": "Present",
+            "position": "Junior Developer",
+            "description": "",
+            "technologies": ["JavaScript", "PHP", "HTML", "CSS", "React"]
+        }
+    ]
+}

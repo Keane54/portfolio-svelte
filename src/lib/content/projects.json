@@ -1,8 +1,23 @@
-[
-    {
-        "title": "",
-        "description": "",
-        "image": "",
-        "technologies": []
-    }
-]
+{
+    "type": "projects",
+    "data": [
+        {
+            "title": "Reimagining Agile",
+            "description": "",
+            "image": "",
+            "technologies": ["SvelteKit", "TailwindCSS", "TypeScript", "Vercel", "Statamic"]
+        },
+        {
+            "title": "Adaptavist",
+            "description": "",
+            "image": "",
+            "technologies": ["Next.js", "Styled Components", "JavaScript", "GitHub Actions", "Prismic"]
+        },
+        {
+            "title": "Freedom To Invest",
+            "description": "",
+            "image": "",
+            "technologies": ["Statamic", "Antlers", "TailwindCSS", "JavaScript"]
+        }
+    ]
+}
