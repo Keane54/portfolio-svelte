@@ -13,16 +13,22 @@
     const projectList = projects as ProjectList
 </script>
 
-<Grid className="py-16 gap-y-24 md:py-0 md:gap-8">
-    <Element element={'header'} className={'col-span-full md:col-span-6 md:sticky md:top-0 md:max-h-screen md:py-24'}>
+<Grid className="py-16 gap-y-24 lg:py-0 lg:gap-8">
+    <Element element={'header'} className={'col-span-full lg:col-span-6 lg:sticky lg:top-0 lg:max-h-screen lg:py-24'}>
         <SideNav/>
     </Element>
 
-    <FlexCol element={'main'} className={'col-span-full md:col-span-6 gap-24 md:py-24'}>
-        <AboutMe/>
+    <FlexCol element={'main'} className={'col-span-full lg:col-span-6 gap-16 lg:gap-24 lg:py-24'}>
+        <Element id="about">
+            <AboutMe/>
+        </Element>
 
-        <CardList items={experienceList}/>
+        <Element id="experience">
+            <CardList items={experienceList}/>
+        </Element>
 
-        <CardList items={projectList}/>
+        <Element id="projects">
+            <CardList items={projectList}/>
+        </Element>
     </FlexCol>
 </Grid>

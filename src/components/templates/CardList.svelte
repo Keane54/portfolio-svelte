@@ -18,19 +18,19 @@
 </script>
 
 {#if isProjectList(items)}
-    <FlexCol element="ol" className="gap-4">
+    <FlexCol element="ol" className="gap-12 md:gap-4">
         {#each items.data as item}
             <ProjectCard {item}/>
         {/each}
     </FlexCol>
 {:else if isExperienceList(items)}
-    <FlexCol element="ul" className="gap-4">
+    <FlexCol element="ul" className="gap-12 md:gap-4">
         {#each items.data as item}
             <ExperienceCard {item}/>
 
             {#if item === (items.data.at(-1))}
-                <Link href="/resume.pdf">
-                    View full resume
+                <Link href="/resume.pdf" className="md:pl-4 font-medium">
+                    View Full Résumé
                     <InteractiveArrow/>
                 </Link>
             {/if}

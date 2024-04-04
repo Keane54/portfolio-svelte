@@ -6,7 +6,7 @@
             "description": "Aimed at creating a collaborative environment for people to share their experiences and thoughts of Agile. Uses Statamic as a headless CMS, dynamically importing selected components to allow for ultimate customisation.",
             "link": "https://www.reimaginingagile.com/",
             "image": "https://res.cloudinary.com/dodqnlrkx/image/upload/f_auto,q_auto/reimagining-agile",
-            "technologies": ["SvelteKit", "TailwindCSS", "TypeScript", "Vercel", "Statamic"]
+            "technologies": ["SvelteKit", "TailwindCSS", "TypeScript", "Statamic"]
         },
         {
             "title": "Adaptavist",

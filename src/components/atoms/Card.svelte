@@ -4,8 +4,8 @@
     export let href: string;
 </script>
 
-<a {href} class="rounded-lg p-4 bg-transparent transition-colors hover:bg-purple-300/5 backdrop-blur-sm group">
-    <Grid className="md:gap-8 w-full shrink-0">
+<a {href} target="_blank" rel="noopener noreferrer" class="rounded-lg md:p-4 bg-transparent transition-colors md:hover:bg-purple-300/5 group">
+    <Grid className="gap-y-2 md:gap-8 w-full shrink-0">
         <slot name="left"/>
         <slot name="right"/>
     </Grid>

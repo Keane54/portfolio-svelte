@@ -11,7 +11,7 @@
     <Heading element={'h2'} className="text-lg">
         Full Stack Developer
     </Heading>
-    <Paragraph className="pt-2">
-        I create beautiful, functional and engaging web applications.
+    <Paragraph className="pt-2 lg:max-w-md">
+        I create beautiful, functional and engaging web applications, with a focus on great UX.
     </Paragraph>
 </FlexCol>

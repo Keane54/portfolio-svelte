@@ -7,16 +7,15 @@
 
     const links = [
         { link: "#about", text: "About" },
-        { link: "#companies", text: "Companies" },
+        { link: "#experience", text: "Experience" },
         { link: "#projects", text: "Projects" },
-        { link: "#contact", text: "Contact" },
     ];
 </script>
 
-<FlexCol className="gap-12 md:gap-16 md:justify-between h-full">
+<FlexCol className="gap-12 lg:gap-16 lg:justify-between h-full">
     <FlexCol className="gap-16">
         <Profile/>
-        <Element element="nav" className="hidden md:block">
+        <Element element="nav" className="hidden lg:block">
             <ThinLinks {links}/>
         </Element>
     </FlexCol>

@@ -11,9 +11,9 @@
 </script>
 
 <Card href="{item.link}">
-    <Image slot="left" src="{item.image}" alt="{item.title}" className="col-span-3 object-fill w-full h-16 mt-1 border-2 border-purple-300/20 group-hover:border-purple-300/30 transition-colors rounded-sm"/>
+    <Image slot="left" src="{item.image}" alt="{item.title}" className="order-2 md:order-1 col-span-8 md:col-span-3 object-fill w-full md:h-16 mt-5 md:mt-1 border-2 border-purple-300/20 group-hover:border-purple-300/30 transition-colors rounded-sm"/>
 
-    <FlexCol slot="right" className="col-span-9 gap-4">
+    <FlexCol slot="right" className="order-1 md:order-2 col-span-full md:col-span-9 gap-4">
         <Paragraph className="text-white transition-colors group-hover:text-purple-300">
             {item.title}
             <InteractiveArrow/>

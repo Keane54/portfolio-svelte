@@ -7,6 +7,10 @@
 </script>
 
 <FlexCol className="[&_a]:text-white leading-7 gap-4 {className}">
+    <Paragraph className="lg:hidden uppercase font-semibold text-slate-200 text-sm pb-4">
+        About
+    </Paragraph>
+
     <Paragraph>
         During 2020 I had a lot of time on my hands and started to code, diving headfirst in to web development.
         Since then I've been a freelancer, worked at a <Link href="https://www.bookabuilderuk.com/" newTab={true}>small

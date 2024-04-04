@@ -10,11 +10,11 @@
 </script>
 
 <Card href="{item.link}">
-    <Paragraph slot="left" className="text-xs font-medium col-span-3 leading-5 text-slate-400/80">
-        {`${item.start} - ${item.end}`.toUpperCase()}
+    <Paragraph slot="left" className="text-xs font-medium col-span-full md:col-span-3 leading-5 text-slate-400/80 uppercase">
+        {`${item.start} - ${item.end}`}
     </Paragraph>
 
-    <FlexCol slot="right" className="col-span-9 gap-4">
+    <FlexCol slot="right" className="col-span-full md:col-span-9 gap-4">
         <Paragraph className="text-white transition-colors group-hover:text-purple-300">
             {item.position} · {item.company}
             <InteractiveArrow/>
