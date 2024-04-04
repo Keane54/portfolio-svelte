@@ -5,21 +5,21 @@
             "title": "Reimagining Agile",
             "description": "Aimed at creating a collaborative environment for people to share their experiences and thoughts of Agile. Uses Statamic as a headless CMS, dynamically importing selected components to allow for ultimate customisation.",
             "link": "https://www.reimaginingagile.com/",
-            "image": "https://res.cloudinary.com/dodqnlrkx/image/upload/f_webp,q_70/reimagining-agile",
+            "image": "https://res.cloudinary.com/dodqnlrkx/image/upload/w_250/f_webp/q_70/reimagining-agile",
             "technologies": ["SvelteKit", "TailwindCSS", "TypeScript", "Statamic"]
         },
         {
             "title": "Adaptavist",
             "description": "Website for Adaptavist, the home of digital transformation. Led a comprehensive rebuild of the homepage to improve UX and performance, the impact of which is still visible today, as well as fully automating the deployment process.",
             "link": "https://www.adaptavist.com/",
-            "image": "https://res.cloudinary.com/dodqnlrkx/image/upload/f_webp,q_70/adaptavist-com",
+            "image": "https://res.cloudinary.com/dodqnlrkx/image/upload/w_250/f_webp/q_70/adaptavist-com",
             "technologies": ["Next.js", "Styled Components", "JavaScript", "GitHub Actions", "Prismic"]
         },
         {
             "title": "Freedom To Invest",
             "description": "A smaller project for a client who's website needed to be brought up to date. Improved performance, accessibility and SEO whilst adding new features but still maintaining the overall look and feel.",
             "link": "https://freedomtoinvest.org/",
-            "image": "https://res.cloudinary.com/dodqnlrkx/image/upload/f_webp,q_70/freedom-to-invest",
+            "image": "https://res.cloudinary.com/dodqnlrkx/image/upload/w_250/f_webp/q_70/freedom-to-invest",
             "technologies": ["Statamic", "Antlers", "TailwindCSS", "JavaScript"]
         }
     ]
