@@ -1,13 +1,8 @@
 <script lang="ts">
     import type { ExperienceList, ProjectList } from "typescript/types";
-    import Card from "../atoms/Card.svelte";
     import ExperienceCard from "../organisms/ExperienceCard.svelte";
-    import Image from "../atoms/Image.svelte";
-    import FlexCol from "../atoms/FlexCol.svelte";
-    import Paragraph from "../atoms/Paragraph.svelte";
-    import InteractiveArrow from "../molecules/InteractiveArrow.svelte";
-    import TechnologyList from "../molecules/TechnologyList.svelte";
     import ProjectCard from "../organisms/ProjectCard.svelte";
+    import Element from "../atoms/Element.svelte";
 
     export let items: ProjectList | ExperienceList;
 
@@ -21,11 +16,15 @@
 </script>
 
 {#if isProjectList(items)}
-    {#each items.data as item}
-        <ProjectCard {item}/>
-    {/each}
+    <Element element="ol">
+        {#each items.data as item}
+            <ProjectCard {item}/>
+        {/each}
+    </Element>
 {:else if isExperienceList(items)}
-    {#each items.data as item}
-        <ExperienceCard {item}/>
-    {/each}
+    <Element element="ul">
+        {#each items.data as item}
+            <ExperienceCard {item}/>
+        {/each}
+    </Element>
 {/if }

@@ -18,7 +18,7 @@
         <SideNav/>
     </Element>
 
-    <FlexCol element={'main'} className={'col-span-full md:col-span-6 gap-12 md:py-24'}>
+    <FlexCol element={'main'} className={'col-span-full md:col-span-6 gap-24 md:py-24'}>
         <AboutMe/>
 
         <CardList items={experienceList}/>
