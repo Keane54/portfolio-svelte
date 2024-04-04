@@ -1,13 +1,15 @@
 <script lang="ts">
+    import type { ExperienceList, ProjectList } from "typescript/types";
     import Element from "../components/atoms/Element.svelte";
     import FlexCol from "../components/atoms/FlexCol.svelte";
     import Grid from "../components/atoms/Grid.svelte";
     import AboutMe from "../components/molecules/AboutMe.svelte";
     import SideNav from "../components/templates/SideNav.svelte";
+    import CardList from "../components/templates/CardList.svelte";
+    import Paragraph from "../components/atoms/Paragraph.svelte";
     import { default as experience } from "$lib/content/experience.json"
     import { default as projects } from "$lib/content/projects.json"
-    import CardList from "../components/templates/CardList.svelte";
-    import type { ExperienceList, ProjectList } from "typescript/types";
+    import SectionHeading from "../components/molecules/SectionHeading.svelte";
 
     const experienceList = experience as ExperienceList
     const projectList = projects as ProjectList
@@ -20,14 +22,26 @@
 
     <FlexCol element={'main'} className={'col-span-full lg:col-span-6 gap-16 lg:gap-24 lg:py-24'}>
         <Element id="about">
+            <SectionHeading>
+                About
+            </SectionHeading>
+
             <AboutMe/>
         </Element>
 
         <Element id="experience">
+            <SectionHeading>
+                Experience
+            </SectionHeading>
+            
             <CardList items={experienceList}/>
         </Element>
 
         <Element id="projects">
+            <SectionHeading>
+                Projects
+            </SectionHeading>
+
             <CardList items={projectList}/>
         </Element>
     </FlexCol>
