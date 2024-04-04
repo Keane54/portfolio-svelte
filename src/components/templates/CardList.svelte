@@ -18,7 +18,7 @@
 </script>
 
 {#if isProjectList(items)}
-    <FlexCol element="ol" className="gap-12 md:gap-4 [&_a:not(:hover)]:hover:opacity-50">
+    <FlexCol element="ol" className="gap-12 md:gap-4 lg:[&_a:not(:hover)]:hover:opacity-50">
         {#each items.data as item}
             <li>
                 <ProjectCard {item}/>
@@ -26,7 +26,7 @@
         {/each}
     </FlexCol>
 {:else if isExperienceList(items)}
-    <FlexCol element="ul" className="gap-12 md:gap-4 [&_a:not(:hover)]:hover:opacity-50">
+    <FlexCol element="ul" className="gap-12 md:gap-4 lg:[&_a:not(:hover)]:hover:opacity-50">
         {#each items.data as item}
             <li>
                 <ExperienceCard {item}/>
