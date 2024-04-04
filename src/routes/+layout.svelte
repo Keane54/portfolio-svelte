@@ -1,6 +1,8 @@
 <script lang="ts">
     import "../app.css";
     import Container from "../components/atoms/Container.svelte";
+
+    export const prerender = true;
 </script>
 
 <svelte:head>
