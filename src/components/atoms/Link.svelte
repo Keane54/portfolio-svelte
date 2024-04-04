@@ -5,6 +5,6 @@
     export let title = "";
 </script>
 
-<a href="{href}" title="{title}" class="text-white transition-colors hover:text-purple-300 {className}" target="{ newTab ? '_blank' : '_self' }" rel="{ newTab ? 'noopener noreferrer' : '' }">
+<a href="{href}" title="{title}" class="group text-white transition-colors hover:text-purple-300 {className}" target="{ newTab ? '_blank' : '_self' }" rel="{ newTab ? 'noopener noreferrer' : '' }">
     <slot/>
 </a>
