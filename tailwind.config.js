@@ -17,6 +17,9 @@ export default {
       fontFamily: {
         sans: ['Poppins', 'Inter', 'sans-serif'],
       },
+      boxShadow: {
+        'card-hover': 'inset 0 1px 0 0 rgba(148,163,184,.1)'
+      }
     },
   },
   plugins: [],
