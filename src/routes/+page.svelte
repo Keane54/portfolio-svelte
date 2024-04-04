@@ -6,7 +6,6 @@
     import AboutMe from "../components/molecules/AboutMe.svelte";
     import SideNav from "../components/templates/SideNav.svelte";
     import CardList from "../components/templates/CardList.svelte";
-    import Paragraph from "../components/atoms/Paragraph.svelte";
     import { default as experience } from "$lib/content/experience.json"
     import { default as projects } from "$lib/content/projects.json"
     import SectionHeading from "../components/molecules/SectionHeading.svelte";
@@ -33,7 +32,7 @@
             <SectionHeading>
                 Experience
             </SectionHeading>
-            
+
             <CardList items={experienceList}/>
         </Element>
 
