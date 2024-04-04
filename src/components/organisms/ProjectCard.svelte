@@ -11,7 +11,7 @@
 </script>
 
 <Card href="{item.link}">
-    <Image slot="left" src="{item.image}" alt="{item.title}" className="col-span-3 object-fill w-full h-16 border-2 border-purple-300/20 group-hover:border-purple-300/30 transition-colors rounded-sm"/>
+    <Image slot="left" src="{item.image}" alt="{item.title}" className="col-span-3 object-fill w-full h-16 mt-1 border-2 border-purple-300/20 group-hover:border-purple-300/30 transition-colors rounded-sm"/>
 
     <FlexCol slot="right" className="col-span-9 gap-4">
         <Paragraph className="text-white transition-colors group-hover:text-purple-300">
@@ -19,7 +19,7 @@
             <InteractiveArrow/>
         </Paragraph>
 
-        <Paragraph>
+        <Paragraph className="text-sm">
             {item.description}
         </Paragraph>
 
