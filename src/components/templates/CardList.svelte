@@ -18,15 +18,19 @@
 </script>
 
 {#if isProjectList(items)}
-    <FlexCol element="ol" className="gap-12 md:gap-4 [&_a:not(:hover)]:hover:opacity-50">
+    <FlexCol element="ol" className="gap-12 md:gap-4 [&_li:not(:hover)]:hover:opacity-50">
         {#each items.data as item}
-            <ProjectCard {item}/>
+            <li>
+                <ProjectCard {item}/>
+            </li>
         {/each}
     </FlexCol>
 {:else if isExperienceList(items)}
-    <FlexCol element="ul" className="gap-12 md:gap-4 [&_a:not(:hover)]:hover:opacity-50">
+    <FlexCol element="ul" className="gap-12 md:gap-4 [&_li:not(:hover)]:hover:opacity-50">
         {#each items.data as item}
-            <ExperienceCard {item}/>
+            <li>
+                <ExperienceCard {item}/>
+            </li>
         {/each}
     </FlexCol>
 
