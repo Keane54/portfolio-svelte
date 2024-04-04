@@ -1,11 +1,12 @@
 <script lang="ts">
-    import Element from "./Element.svelte";
-    import FlexRow from "./FlexRow.svelte";
+    import Grid from "./Grid.svelte";
+
+    export let href: string;
 </script>
 
-<Element className="rounded-md bg-transparent transition-colors hover:bg-purple-300/50">
-    <FlexRow className="gap-4 w-full shrink-0">
+<a {href} class="rounded-lg p-4 bg-transparent transition-colors hover:bg-purple-300/5 backdrop-blur-sm group">
+    <Grid className="md:gap-8 w-full shrink-0">
         <slot name="left"/>
         <slot name="right"/>
-    </FlexRow>
-</Element>
+    </Grid>
+</a>

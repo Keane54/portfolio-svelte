@@ -3,10 +3,10 @@
     import FlexCol from "../components/atoms/FlexCol.svelte";
     import Grid from "../components/atoms/Grid.svelte";
     import AboutMe from "../components/molecules/AboutMe.svelte";
-    import SideNav from "../components/organisms/SideNav.svelte";
+    import SideNav from "../components/templates/SideNav.svelte";
     import { default as experience } from "$lib/content/experience.json"
     import { default as projects } from "$lib/content/projects.json"
-    import CardList from "../components/organisms/CardList.svelte";
+    import CardList from "../components/templates/CardList.svelte";
     import type { ExperienceList, ProjectList } from "typescript/types";
 
     const experienceList = experience as ExperienceList

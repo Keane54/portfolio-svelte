@@ -7,6 +7,7 @@ export type ThinLink = { link: string; text: string; };
 export type Project = {
     title: string;
     description: string;
+    link: string;
     image: string;
     technologies: string[];
 }
@@ -15,6 +16,7 @@ export type Experience = {
     company: string;
     start: string;
     end: string;
+    link: string;
     position: string;
     description: string;
     technologies: string[];

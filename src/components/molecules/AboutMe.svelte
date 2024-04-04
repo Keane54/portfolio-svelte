@@ -14,8 +14,8 @@
     </Paragraph>
 
     <Paragraph>
-        At the <Link href="https://www.theadaptavistgroup.com/" newTab={true}>Adaptavist Group</Link>, as a member of <Link href="https://brewdigital.com/" newTab={true}>Brew Digital</Link>, I've been building user interfaces and adding new features,
-        as well as leading development on a number of other tools and projects such as <Link href="https://www.reimaginingagile.com/" newTab={true}>Reimagining Agile</Link> and working in a multi-disciplinary team
+        At the <Link href="https://www.theadaptavistgroup.com/" newTab={true}>Adaptavist Group</Link>, as a member of <Link href="https://brewdigital.com/" newTab={true}>Brew Digital</Link>, I've been contributing core features and components,
+        improving UX across our websites, as well as leading development on a number of other tools and projects such as <Link href="https://www.reimaginingagile.com/" newTab={true}>Reimagining Agile</Link> and working in a multi-disciplinary team
         of designers, product owners and developers.
     </Paragraph>
 

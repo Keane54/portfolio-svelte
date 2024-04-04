@@ -6,24 +6,27 @@
             "start": "Nov 2023",
             "end": "Present",
             "position": "Full Stack Developer",
-            "description": "",
-            "technologies": ["SvelteKit", "Next.js", "TypeScript", "JavaScript", "Statamic", "TailwindCSS", "Laravel"]
+            "link": "https://brewdigital.com/",
+            "description": "Lead developer of Reimagining Agile. Eliminating technical debt to ensure performance & scalability. Optimising & automating workflows, improving efficiency and reducing downtime. Advocating for best in class UX and web practices within a cross functional team of developers, designers and product managers.",
+            "technologies": ["SvelteKit", "Next.js", "TypeScript", "JavaScript", "TailwindCSS", "Laravel"]
         },
         {
             "company": "Brew Digital",
             "start": "Jan 2023",
             "end": "Nov 2023",
             "position": "Associate Web Developer",
-            "description": "",
-            "technologies": ["Next.js", "JavaScript", "React", "Prismic", "PHP", "TailwindCSS"]
+            "link": "https://brewdigital.com/",
+            "description": "Contributor of core features and components to the Adaptavist website. Created a new CLI tool to make code releases simple. Collaborated with other developers to create scalable interactive applications.",
+            "technologies": ["Next.js", "JavaScript", "React", "Prismic", "Laravel", "TailwindCSS"]
         },
         {
             "company": "BookaBuilder UK",
-            "start": "2023",
-            "end": "Present",
+            "start": "Jan 2022",
+            "end": "Jan 2023",
             "position": "Junior Developer",
-            "description": "",
-            "technologies": ["JavaScript", "PHP", "HTML", "CSS", "React"]
+            "link": "https://www.bookabuilderuk.com/",
+            "description": "Develop new websites for clients, maintain and update existing websites. Work with the senior developer to expand the company's offerings and services.",
+            "technologies": ["JavaScript", "PHP", "HTML", "MySQL", "CSS", "React"]
         }
     ]
 }

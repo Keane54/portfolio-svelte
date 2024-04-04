@@ -1,6 +1,14 @@
 <script lang="ts">
     import type { ExperienceList, ProjectList } from "typescript/types";
     import Card from "../atoms/Card.svelte";
+    import ExperienceCard from "../organisms/ExperienceCard.svelte";
+    import Image from "../atoms/Image.svelte";
+    import FlexCol from "../atoms/FlexCol.svelte";
+    import Paragraph from "../atoms/Paragraph.svelte";
+    import InteractiveArrow from "../molecules/InteractiveArrow.svelte";
+    import TechnologyList from "../molecules/TechnologyList.svelte";
+    import ProjectCard from "../organisms/ProjectCard.svelte";
+
     export let items: ProjectList | ExperienceList;
 
     const isProjectList = (items: ProjectList | ExperienceList): items is ProjectList => {
@@ -14,14 +22,10 @@
 
 {#if isProjectList(items)}
     {#each items.data as item}
-        <Card>
-            
-        </Card>
+        <ProjectCard {item}/>
     {/each}
 {:else if isExperienceList(items)}
     {#each items.data as item}
-        <Card>
-
-        </Card>
+        <ExperienceCard {item}/>
     {/each}
 {/if }
