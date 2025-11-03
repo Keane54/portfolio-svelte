@@ -2,21 +2,22 @@
     import FlexCol from "../atoms/FlexCol.svelte";
     import Paragraph from "../atoms/Paragraph.svelte";
     import Link from "../atoms/Link.svelte";
+  import LinkedIn from "../icons/LinkedIn.svelte";
 
     export let className = "";
 </script>
 
 <FlexCol className="[&_a]:text-white leading-7 gap-4 {className}">
-    <Paragraph>
-        During 2020 I had a lot of time on my hands and started to code, diving headfirst in to web development.
-        Since then I've been a freelancer, worked at a <Link href="https://www.bookabuilderuk.com/" newTab={true}>small
-        business</Link>, and now I'm part of a <Link href="https://www.adaptavist.com/" newTab={true}>large corporation</Link> as a Full Stack Developer.
+    <Link>
+        I've been a developer for just over 5 years, with some of the highlights including my role in leading architectural improvements and legacy system migrations at <Link href="https://www.keyholding.com/">The Keyholding Company</Link> 
+        and my time at the <Link href="https://www.adaptavist.com/" newTab={true}>Adaptavist Group</Link> as a Full Stack Developer.
     </Paragraph>
 
-    <Paragraph>
-        At the <Link href="https://www.theadaptavistgroup.com/" newTab={true}>Adaptavist Group</Link>, as a member of <Link href="https://brewdigital.com/" newTab={true}>Brew Digital</Link>, I've been contributing core features and components,
-        improving UX across our websites, as well as leading development on a number of other tools and projects such as <Link href="https://www.reimaginingagile.com/" newTab={true}>Reimagining Agile</Link> and working in a multi-disciplinary team
-        of designers, product owners and developers.
+    <Link>
+        Whilst at <Link href="https://www.keyholding.com/">TKC</Link> I've been focused on moving sections of our older platform into a new, more modern, "V2" codebase, introducing modern technologies
+        like <Link href="https://tanstack.com/query/">Tanstack Query</Link>, <Link href="https://vitest.dev/">Vitest</Link> and <Link href="https://biomejs.dev/">Biome</Link>. 
+        I also established a process to document architectural decisions through the use of RFCs and Architectural Decision Records. 
+        More recently, I've been working closely with senior business stakeholders and the product team, to develop technical proofs-of-concept and MVPs to help shape our architecture for future projects.
     </Paragraph>
 
     <Paragraph>
