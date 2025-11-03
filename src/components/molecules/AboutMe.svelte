@@ -13,7 +13,7 @@
         and my time at the <Link href="https://www.adaptavist.com/" newTab={true}>Adaptavist Group</Link> as a Full Stack Developer.
     </Paragraph>
 
-    <Link>
+    <Paragraph>
         Whilst at <Link href="https://www.keyholding.com/">TKC</Link> I've been focused on moving sections of our older platform into a new, more modern, "V2" codebase, introducing modern technologies
         like <Link href="https://tanstack.com/query/">Tanstack Query</Link>, <Link href="https://vitest.dev/">Vitest</Link> and <Link href="https://biomejs.dev/">Biome</Link>. 
         I also established a process to document architectural decisions through the use of RFCs and Architectural Decision Records. 
