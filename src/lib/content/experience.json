@@ -2,9 +2,18 @@
     "type": "experience",
     "data": [
         {
+            "company": "The Keyholding Company",
+            "start": "Nov 2024",
+            "end": "Present",
+            "position": "Front End Engineer",
+            "link": "https://www.keyholding.com/",
+            "description": "Led the migration of legacy systems to a new, modern codebase. Established a formal RFC/ADR process to provide better visibility on architectural decisions. Reduced CI/CD times by 25%, GitHub Action bills by 10%. Collaborated with senior stakeholders on MVPs and technical proofs-of-concept to shape architectural direction.",
+            "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Storybook", "Vitest", "Tanstack Query"]
+        },
+        {
             "company": "Brew Digital",
             "start": "Nov 2023",
-            "end": "Present",
+            "end": "Nov 2024",
             "position": "Full Stack Developer",
             "link": "https://brewdigital.com/",
             "description": "Lead developer of Reimagining Agile. Eliminating technical debt to ensure performance & scalability. Optimising & automating workflows, improving efficiency and reducing downtime. Advocating for best in class UX and web practices within a cross functional team of developers, designers and product managers.",
