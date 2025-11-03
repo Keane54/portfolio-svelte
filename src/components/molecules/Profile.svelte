@@ -9,9 +9,9 @@
         Oliver Keane
     </Heading>
     <Heading element={'h2'} className="text-lg">
-        Full Stack Developer
+        Front End Engineer
     </Heading>
     <Paragraph className="pt-2 lg:max-w-md">
-        I create beautiful, functional and engaging web applications, with a focus on great UX.
+        Shaping architectural direction and developing maintainable, scalable applications.
     </Paragraph>
 </FlexCol>
