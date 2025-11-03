@@ -8,7 +8,7 @@
 </script>
 
 <FlexCol className="[&_a]:text-white leading-7 gap-4 {className}">
-    <Link>
+    <Paragraph>
         I've been a developer for just over 5 years, with some of the highlights including my role in leading architectural improvements and legacy system migrations at <Link href="https://www.keyholding.com/">The Keyholding Company</Link> 
         and my time at the <Link href="https://www.adaptavist.com/" newTab={true}>Adaptavist Group</Link> as a Full Stack Developer.
     </Paragraph>
